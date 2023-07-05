@@ -1,0 +1,121 @@
+.box-shadow {
+    box-shadow: 2px 3px 1px lightgrey;
+    z-index: 10;
+    position: relative;
+    height: 1px;
+    margin-bottom: -20px;
+}
+
+.footer {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.categories {
+    display: flex;
+    margin-top: 20px;
+    margin: 0;
+    align-items: center;
+}
+
+.categories .about {
+    display: flex;
+}
+
+.categories .careers {
+    display: flex;
+}
+
+.categories .social-impact {
+    display: flex;
+}
+
+.categories .business-partners {
+    display: flex;
+}
+
+.categories .order-pickup {
+    display: flex;
+}
+
+.categories h3 {
+    display: flex;
+    margin-top: 40px;
+    list-style-type: none;
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.categories ul li {
+    display: flex;
+    color: rgba(0, 0, 0, .56);
+    cursor: pointer;
+    padding-top: .8rem !important;
+    padding-bottom: .8rem !important;
+    display: block !important;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.categories ul li:first-child {
+    margin-top: 10px;
+}
+
+.categories ul li:hover {
+    color: rgba(0, 0, 0, .87);
+}
+
+.social-btn i {
+    cursor: pointer;
+    font-size: 36px;
+    margin-top: 1cm;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.checkins {}
+
+.checkins ul {
+    display: flex;
+    margin-left: 0px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0000008F;
+    width: 100%;
+    padding: 0;
+}
+
+.checkins ul li {
+    display: flex;
+    color: #000000DE;
+    font-size: 16px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    font-weight: 500;
+}
+
+.checkins ul i {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.checkins ul li:hover {
+    text-decoration: underline;
+}
+
+.copyrights {
+    display: flex;
+    color: #0000008F;
+    margin-top: 5px;
+    margin-bottom: 24px;
+}
